@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Curve Delivery</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="network_error_please_try_later">Please check your internet connect and try again\n</string>
+    <string name="connection_lost_please_try_later">Connection Lost\n</string>
+    <string name="server_error_please_try_later">Server Error</string>
+    <string name="something_went_wrong">Please try again later\n</string>
+    <string name="no_network_found">Please check your internet connection and try again</string>
+
+</resources>

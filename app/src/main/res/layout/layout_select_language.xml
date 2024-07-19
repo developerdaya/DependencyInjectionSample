@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_round_2"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="30dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginHorizontal="140dp"
+        android:background="@drawable/bg_round_25"
+        android:backgroundTint="@color/gray_9D9D9D" />
+
+    <TextView
+        android:id="@+id/upload_image_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Select Language"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="20sp">
+
+        <TextView
+            android:id="@+id/mArabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Arabic"
+            android:drawablePadding="13dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black_333333"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/lng_arb"
+            android:layout_marginTop="20sp"
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/mEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="English"
+            android:drawablePadding="13dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black_333333"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/lng_eng_selected"
+            android:layout_marginTop="10dp"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

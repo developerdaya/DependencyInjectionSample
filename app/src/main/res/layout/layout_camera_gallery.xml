@@ -1,0 +1,93 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:layout_gravity="center"
+    android:paddingTop="16dp"
+    android:background="@drawable/bg_round_2"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:backgroundTint="@color/gray_9D9D9D"
+        android:layout_marginHorizontal="140dp"
+        android:background="@drawable/bg_round_25" />
+
+    <TextView
+        android:id="@+id/upload_image_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:text="Upload Image"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/montserrat_bold" />
+
+    <TextView
+        android:id="@+id/choose_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="Choose from below option"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/montserrat_semibold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/mCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Camera"
+                android:gravity="center"
+                android:drawableTop="@drawable/camera11"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/montserrat_regular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/mGallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Gallery"
+                android:gravity="center"
+                android:drawableTop="@drawable/picture11"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/montserrat_regular" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

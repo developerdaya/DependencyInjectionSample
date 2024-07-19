@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_round_2"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="30dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginHorizontal="140dp"
+        android:background="@drawable/bg_round_25"
+        android:backgroundTint="@color/gray_9D9D9D" />
+
+    <TextView
+        android:id="@+id/upload_image_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Select Gender"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="20sp">
+
+        <TextView
+            android:id="@+id/mMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/man_1"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="Male"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/mFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:drawableStart="@drawable/woman_1"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="Female"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/mOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="Other"
+            android:drawableStart="@drawable/transgender"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+</LinearLayout>

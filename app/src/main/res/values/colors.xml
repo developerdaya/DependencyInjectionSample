@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_05">#051117</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_333333">#333333</color>
+    <color name="gray_9D9D9D">#9D9D9D</color>
+    <color name="white_F6F6F6">#F6F6F6</color>
+    <color name="status_bar_gray">#F7F7F7</color>
+    <color name="green">#33BD8C</color>
+    <color name="green_C8EED4">#C8EED4</color>
+    <color name="green_39C166">#39C166</color>
+    <color name="red_F8DFDF">#F8DFDF</color>
+    <color name="red_D63636">#D63636</color>
+    <color name="red">#ff0000</color>
+    <color name="transparent">#006064</color>
+    <color name="line_color">#F0F0F0</color>
+    <color name="black_161616">#161616</color>
+    <color name="gray_dc">#DCDCDC</color>
+    <color name="thumb_color">#33BD8C</color>
+    <color name="thumb_bg">#C1E6D9</color>
+    <color name="black_ad">#AEADAD</color>
+    <color name="gray_84">#848484</color>
+    <color name="sky_color">#EAEEF5</color>
+    <color name="blue_003">#00358F</color>
+    <color name="yellow">#B8B200</color>
+    <color name="yellow_light">#F8F8EA</color>
+    <color name="gray_6B6B6B">#6B6B6B</color>
+</resources>
