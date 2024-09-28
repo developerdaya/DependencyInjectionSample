@@ -1,2 +1,1 @@
-# curve-delivery-android
 
